@@ -1,0 +1,549 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Welcome to LEBANK’s documentation! &mdash; LEBANK 1.0.1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="#" class="icon icon-home"> LEBANK
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Welcome to LEBANK’s documentation!</a></li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+</div>
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">LEBANK</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Welcome to LEBANK’s documentation!</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-main_multitela">
+<span id="welcome-to-lebank-s-documentation"></span><h1>Welcome to LEBANK’s documentation!<a class="headerlink" href="#module-main_multitela" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt id="main_multitela.Main">
+<em class="property">class </em><code class="sig-prename descclassname">main_multitela.</code><code class="sig-name descname">Main</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">parent</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#main_multitela.Main" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="py method">
+<dt id="main_multitela.Main.requestEnviar">
+<code class="sig-name descname">requestEnviar</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em><span class="sig-paren">)</span><a class="headerlink" href="#main_multitela.Main.requestEnviar" title="Permalink to this definition">¶</a></dt>
+<dd><p>Envia ao servidor uma solicitação de serviço juntamente com as informações necessárias para a execução
+da mesma, e aguarda a resposta.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>request</strong> (<em>str</em>) – A solicitação a ser enviada</p>
+</dd>
+<dt class="field-even">Variables</dt>
+<dd class="field-even"><p><strong>resposta</strong> – A resposta da requisição feita</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>A resposta da requisição feita em forma de lista sendo a “,” o separador.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-Banco"></span><dl class="py class">
+<dt id="Banco.Banco">
+<em class="property">class </em><code class="sig-prename descclassname">Banco.</code><code class="sig-name descname">Banco</code><a class="headerlink" href="#Banco.Banco" title="Permalink to this definition">¶</a></dt>
+<dd><p>O objeto Banco contém os metódos necessários para o processamento e armazenamento das informações requisitadas.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Variables</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>self._clientes</strong> (<em>dict</em>) – Usado para armazenar os clientes em um dicionario onde a key é seu CPF</p></li>
+<li><p><strong>self._contas</strong> (<em>dict</em>) – Usado para armazenar as contas em um dicionario onde a key é o numero da conta</p></li>
+<li><p><strong>self.requests</strong> (<em>dict</em>) – Usado para armazenar os requests em um dicionario onde a key é o request</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt id="Banco.Banco.adicionar_request">
+<code class="sig-name descname">adicionar_request</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request_name</span></em>, <em class="sig-param"><span class="n">request_func</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Banco.Banco.adicionar_request" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adiciona ao dicionario de request o nome e a função do respectivo request(instrução).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>request_name</strong> (<em>str</em>) – Nome do request</p></li>
+<li><p><strong>request_func</strong> (<em>func</em>) – Função do request</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="Banco.Banco.cadastrarCliente">
+<code class="sig-name descname">cadastrarCliente</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request_parameters</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Banco.Banco.cadastrarCliente" title="Permalink to this definition">¶</a></dt>
+<dd><p>Cria o cliente mas so o adiciona na lista de clientes quando é verificado a existencia de seu
+CPF na lista, se seu cpf é numerico e se tem 11 digitos. Apos isso conta do cliente é cadastrada juntamente
+com a senha colocada.Por fim retorna True se deu certo juntamente com a quantidade de contas criadas.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="Banco.Banco.cadastrarConta">
+<code class="sig-name descname">cadastrarConta</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">conta</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Banco.Banco.cadastrarConta" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adiciona a conta ao dicionario de contas, sendo a key o numero da conta.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>conta</strong> (<em>Conta Object</em>) – A respectiva conta do cliente</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>True se funcionar</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="Banco.Banco.depositar">
+<code class="sig-name descname">depositar</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request_parameters</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Banco.Banco.depositar" title="Permalink to this definition">¶</a></dt>
+<dd><p>Realiza o deposito na conta por meio do metodo deposita da classe Conta, passando o valor a ser depositado.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>request_parameters</strong> – Os parametros necessários para a realização, sendo o primeiro indice o numero da conta, o segundo a senha, o terceiro o valor a ser depositado.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Se der tudo certo True é retornado.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="Banco.Banco.getHistorico">
+<code class="sig-name descname">getHistorico</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request_parameters</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Banco.Banco.getHistorico" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retorna o historico da conta por meio do numero.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>request_parameters</strong> – Os parametros necessários para a realização, sendo o primeiro indice o numero da conta e o segundo a senha.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Se der tudo certo True é retornado, juntamente com as informações requisitadas, divididas por virgula.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="Banco.Banco.getLimite">
+<code class="sig-name descname">getLimite</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request_parameters</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Banco.Banco.getLimite" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retorna o limite da conta por meio do numero.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>request_parameters</strong> – Os parametros necessários para a realização, sendo o primeiro indice o numero da conta e o segundo a senha.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Se der tudo certo True é retornado, juntamente com as informações requisitadas, divididas por virgula.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="Banco.Banco.getSaldo">
+<code class="sig-name descname">getSaldo</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request_parameters</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Banco.Banco.getSaldo" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retorna o saldo da conta por meio do numero.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>request_parameters</strong> – Os parametros necessários para a realização, sendo o primeiro indice o numero da conta e o segundo a senha.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Se der tudo certo True é retornado, juntamente com as informações requisitadas, divididas por virgula.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="Banco.Banco.getTitular">
+<code class="sig-name descname">getTitular</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request_parameters</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Banco.Banco.getTitular" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retorna o nome e o sobrenome do titular da conta por meio do numero da conta.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>request_parameters</strong> – Os parametros necessários para a realização, sendo o primeiro indice o numero da conta e o segundo a senha.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Se der tudo certo True é retornado, juntamente com as informações requisitadas, divididas por virgula.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="Banco.Banco.getTitularCpfDestinatario">
+<code class="sig-name descname">getTitularCpfDestinatario</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request_parameters</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Banco.Banco.getTitularCpfDestinatario" title="Permalink to this definition">¶</a></dt>
+<dd><p>Retorna o nome, sobrenome e cpf da conta do destinatário por meio do numero.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>request_parameters</strong> – Os parametros necessários para a realização, sendo o primeiro indice o numero da conta,o segundo a senha, o terceiro o numero da conta do destinatário.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Se der tudo certo True é retornado, juntamente com as informações requisitadas, divididas por virgula.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="Banco.Banco.login">
+<code class="sig-name descname">login</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request_parameters</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Banco.Banco.login" title="Permalink to this definition">¶</a></dt>
+<dd><p>Verifica o login da conta por meio da sua senha cadastrada.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>request_parameters</strong> (<em>list</em>) – Os parametros necessários para a realização, sendo o primeiro indice o numero da conta e o segundo a senha.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Retorna True se a senha coincidir e False se não.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="Banco.Banco.requestReceber">
+<code class="sig-name descname">requestReceber</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Banco.Banco.requestReceber" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recebe o request enviado pelo cliente decodifica ele, e depois transforma em lista
+sendo o separador a “,”.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Variables</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>request</strong> (<em>str</em>) – Mensagem decodificada</p></li>
+<li><p><strong>request_list</strong> (<em>list</em>) – Mensagem em formato de lista</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>O primeiro indice(o nome da função do request) e seus parametros necessarios para a realização da mesmo)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="Banco.Banco.sacar">
+<code class="sig-name descname">sacar</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request_parameters</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Banco.Banco.sacar" title="Permalink to this definition">¶</a></dt>
+<dd><p>Realiza o saque da conta por meio do metodo saca da classe Conta, passando o valor a ser retirado.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>request_parameters</strong> – Os parametros necessários para a realização, sendo o primeiro indice o numero da conta, o segundo a senha, o terceiro o valor a ser sacado.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Se der tudo certo True é retornado.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="Banco.Banco.start_server">
+<code class="sig-name descname">start_server</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Banco.Banco.start_server" title="Permalink to this definition">¶</a></dt>
+<dd><p>Inicia o servidor, aguarda a conexão, e responde os requests.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Variables</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>request_name</strong> (<em>str</em>) – Recebe o nome do request</p></li>
+<li><p><strong>request_parameters</strong> (<em>list</em>) – Recebe os parametros necessário para o determinado request</p></li>
+<li><p><strong>func</strong> – Recebe a função do request</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A resposta</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="Banco.Banco.transferir">
+<code class="sig-name descname">transferir</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request_parameters</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Banco.Banco.transferir" title="Permalink to this definition">¶</a></dt>
+<dd><p>Realiza a transferencia para a conta por meio do metodo transfere da classe Conta, passando o valor a ser transferido.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>request_parameters</strong> – Os parametros necessários para a realização, sendo o primeiro indice o numero da conta, o segundo a senha, sendo o terceiro e quarto, o numero da conta do destinatário e o valor a ser transferido.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Se der tudo certo True é retornado.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-Historico"></span><dl class="py class">
+<dt id="Historico.Historico">
+<em class="property">class </em><code class="sig-prename descclassname">Historico.</code><code class="sig-name descname">Historico</code><a class="headerlink" href="#Historico.Historico" title="Permalink to this definition">¶</a></dt>
+<dd><p>Classe responsável por gerenciar o histórico das contas.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Variables</dt>
+<dd class="field-odd"><p><strong>self._transacoes</strong> (<em>list</em>) – Armazena as transações.</p>
+</dd>
+</dl>
+<dl class="py method">
+<dt id="Historico.Historico.add_transacao">
+<code class="sig-name descname">add_transacao</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">transacao</span></em>, <em class="sig-param"><span class="n">valor</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Historico.Historico.add_transacao" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adiciona a transação.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Variables</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>transacao</strong> (<em>str</em>) – Transação a ser adicionada</p></li>
+<li><p><strong>valor</strong> (<em>float</em>) – Valor da transação</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Retorna True se ocorreu, e False se não.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-Conta"></span><dl class="py class">
+<dt id="Conta.Conta">
+<em class="property">class </em><code class="sig-prename descclassname">Conta.</code><code class="sig-name descname">Conta</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">titular</span></em>, <em class="sig-param"><span class="n">senha</span></em>, <em class="sig-param"><span class="n">saldo</span><span class="o">=</span><span class="default_value">0</span></em>, <em class="sig-param"><span class="n">limite</span><span class="o">=</span><span class="default_value">1000</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Conta.Conta" title="Permalink to this definition">¶</a></dt>
+<dd><p>Classe responsavel pela criação de contas para o banco.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Variables</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>Conta._qtd_de_contas</strong> (<em>int</em>) – Quantidade de contas criadas</p></li>
+<li><p><strong>self._numero</strong> (<em>int</em>) – Numero da conta correspondente a quantidade de contas criadas</p></li>
+<li><p><strong>self._titular</strong> (<em>Cliente Object</em>) – O cliente criado</p></li>
+<li><p><strong>self._saldo</strong> (<em>float</em>) – Saldo da conta</p></li>
+<li><p><strong>self._limite</strong> (<em>float</em>) – Limite da conta</p></li>
+<li><p><strong>self._historico</strong> (<em>Historico Object</em>) – Historico da conta contendo as trasações realizadas</p></li>
+<li><p><strong>self._senha</strong> (<em>str</em>) – Senha de acesso para a conta</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<span class="target" id="module-Cliente"></span><dl class="py class">
+<dt id="Cliente.Cliente">
+<em class="property">class </em><code class="sig-prename descclassname">Cliente.</code><code class="sig-name descname">Cliente</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">nome</span></em>, <em class="sig-param"><span class="n">sobrenome</span></em>, <em class="sig-param"><span class="n">cpf</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Cliente.Cliente" title="Permalink to this definition">¶</a></dt>
+<dd><p>Classe responsavel pela criação do cliente.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Variables</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>self._nome</strong> (<em>str</em>) – Nome do cliente</p></li>
+<li><p><strong>self._sobrenome</strong> (<em>str</em>) – Resto do nome do cliente</p></li>
+<li><p><strong>self._cpf</strong> (<em>str</em>) – CPF do cliente</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<div class="toctree-wrapper compound">
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Eurico Delmondes &amp; Lucas Silva Lopes.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
