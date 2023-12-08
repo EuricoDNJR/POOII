@@ -1,7 +1,7 @@
 # POOII
 Repositório destinado para a disciplina de Programação Orientada a Objetos II.
 
-Onde no trabalho final criamos um Sistema de Banco, tanto a parte do cliente como também a do servidor, utilizando PyQt5. Qualquer similaridade com o app do banco do brasil é mera coincidência :smiley: .
+Onde no trabalho final criamos um Sistema de Banco, tanto a parte do Cliente como também a do Servidor, utilizando PyQt5. Qualquer similaridade com o app do banco do brasil é mera coincidência :smiley: .
 
 Para executar é simples, primeiro instale a biblioteca do PyQt5(https://pypi.org/project/PyQt5/):
 
